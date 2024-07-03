@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "doc-faq"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr Gavrilov <agvrdir@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+streamlit = "^1.35.0"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.8"
+chromadb = "^0.5.3"
+limits = "^3.12.0"
+coverage = "^7.5.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
