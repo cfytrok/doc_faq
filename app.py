@@ -26,7 +26,7 @@ with st.sidebar:
 
     user_openai_api_key = st.text_input("OpenAI API Key", key="openai_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
+    "[View the source code](https://github.com/cfytrok/doc_faq)"
 
 question = st.text_area("Ask me a question about StarRocks!", key='question')
 
